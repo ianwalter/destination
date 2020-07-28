@@ -607,7 +607,6 @@ video {
 
 body {
   color: #4a5568;
-  max-width: 65ch;
   font-size: 1.25rem;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
