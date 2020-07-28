@@ -10,9 +10,9 @@
   "scripts": {
     "lint": "eslint .",
     "minify": "csso -i destination.css -o destination.min.css",
-    "build:css": "postcss src/destination.css -o destination.css --env production",
+    "build:css": "postcss src/destination.css -o destination.css",
     "build:site": "eleventy --input src",
-    "build": "run-s build:css build:site minify",
+    "build": "NODE_ENV=production run-s build:css build:site minify",
     "serve": "eleventy --serve --input src",
     "dev": "pnpm build:css -- --watch",
     "start": "run-p dev serve"
