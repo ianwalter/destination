@@ -1,6 +1,7 @@
 {
   "name": "@ianwalter/destination",
   "version": "0.0.0",
+  "description": "A style sheet that makes website prototypes look beautiful",
   "license": "SEE LICENSE IN LICENSE",
   "author": {
     "name": "Ian Walter",

@@ -1,7 +1,6 @@
 # Destination
 
-**Destination is a style sheet that makes websites that are being
-rapidly-prototyped look beautiful.**
+**Destination is a style sheet that makes website prototypes look beautiful.**
 
 The styles are derived from the utility-first [Tailwind CSS][twUrl] framework.
 This allows nearly unlimited flexibility while prototyping websites. However,
