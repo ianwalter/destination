@@ -175,11 +175,11 @@ pre code {
 }
 
 pre code::before {
-  content: "";
+  content: none;
 }
 
 pre code::after {
-  content: "";
+  content: none;
 }
 
 table {
@@ -502,7 +502,7 @@ tbody td:last-child {
 a {
   @apply transition duration-150 ease-in;
 }
-a:focus {
+a:focus:not(:active):not(.button) {
   @apply rounded-sm outline-none;
   box-shadow: 0 0 0 2px var(--bg-color, #fff), 0 0 0 5px #90CDF4;
 }

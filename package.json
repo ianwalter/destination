@@ -9,16 +9,17 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "minify": "csso -i destination.css -o destination.css",
-    "build:css": "postcss source.css -o destination.css --env production",
-    "build:site": "eleventy --input .",
+    "minify": "csso -i destination.css -o destination.min.css",
+    "build:css": "postcss src/destination.css -o destination.css --env production",
+    "build:site": "eleventy --input src",
     "build": "run-s build:css build:site minify",
-    "serve": "eleventy --serve --input .",
+    "serve": "eleventy --serve --input src",
     "dev": "pnpm build:css -- --watch",
     "start": "run-p dev serve"
   },
   "files": [
-    "destination.css"
+    "destination.css",
+    "destination.min.css"
   ],
   "publishConfig": {
     "access": "public"

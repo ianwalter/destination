@@ -8,7 +8,7 @@ unlike Tailwind, Destination also applies styles from the
 [Tailwind Typography][ttUrl] plugin directly to certain HTML elements. You can
 still modify most of the base styles by adding utility classes but the base
 styles are meant to free you from having to do that. You can see the Tailwind
-Typography [demo using Destination here](/demo).
+Typography [demo using Destination here](https://destination.ianwalter.dev/demo).
 
 [twUrl]: https://tailwindcss.com/
 [ttUrl]: https://tailwindcss-typography.netlify.app/
@@ -19,7 +19,7 @@ used to (97KB gzipped). You can reduce the size if necessary by purging unused
 styles but in most cases it's meant to be loaded via CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ianwalter@destination@1.0.0/destination.css">
+<link rel="stylesheet" href="https://unpkg.com/ianwalter@destination@1.0.1/destination.min.css">
 ```
 
 Destination will also contain some basic component classes in addition to the
