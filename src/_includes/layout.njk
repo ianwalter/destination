@@ -6,6 +6,7 @@
     <title>{% if title %}{{ title }}{% else %}Destination{% endif %}</title>
     <link rel="stylesheet" href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/no-italics.css">
     <link rel="stylesheet" href="/destination.css?v={% meta 'version' %}">
+    <script async defer data-domain="destination.ianwalter.dev" src="https://plausible.io/js/plausible.js"></script>
   </head>
   <body class="container">
     {{ content | safe }}
