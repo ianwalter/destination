@@ -50,3 +50,5 @@ Hippocratic License - See [LICENSE][licenseUrl]
 &nbsp;
 
 Created by [Ian Walter](https://ianwalter.dev)
+
+[licenseUrl]: https://github.com/ianwalter/destination/blob/master/LICENSE
