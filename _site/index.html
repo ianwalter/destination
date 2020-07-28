@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+    <link rel="stylesheet" href="https://unpkg.com/prism-theme-night-owl@1.4.0/build/no-italics.css">
+    <link rel="stylesheet" href="/destination.css?v=0.0.0">
+  </head>
+  <body class="container">
+    <h1>Destination</h1>
+<p><strong>Destination is a style sheet that makes websites that are being
+rapidly-prototyped look beautiful.</strong></p>
+<p>The styles are derived from the utility-first <a href="https://tailwindcss.com/">Tailwind CSS</a> framework.
+This allows nearly unlimited flexibility while prototyping websites. However,
+unlike Tailwind, Destination also applies styles from the
+<a href="https://tailwindcss-typography.netlify.app/">Tailwind Typography</a> plugin directly to certain HTML elements. You can
+still modify most of the base styles by adding utility classes but the base
+styles are meant to free you from having to do that. You can see the Tailwind
+Typography <a href="/demo">demo using Destination here</a>.</p>
+<p>Destination is meant to be used when presentation and effort matter more than
+bandwidth so it's probably pretty large compared to other style sheets you're
+used to (97KB gzipped). You can reduce the size if necessary by purging unused
+styles but in most cases it's meant to be loaded via CDN:</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://unpkg.com/ianwalter@destination@0.0.0/destination.css<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></code></pre>
+<p>Destination will also contain some basic component classes in addition to the
+ones provided by Tailwind.</p>
+<h2>Buttons</h2>
+<h3>Default Button</h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  Button Label<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></code></pre>
+<div class="w-48 md:w-56 text-center pt-2">
+  <button class="button">
+    Button Label
+  </button>
+  <div class="pt-2">
+    <code>button</code>
+  </div>
+</div>
+<h3>Color Variants</h3>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button button-blue<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>  Button Label<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<div class="grid grid-cols-3 gap-8 pt-2">
+  <div class="col-span-3 md:col-span-1">
+    <div class="w-48 md:w-56 text-center">
+      <a href="#" class="button button-blue" role="button">
+        Button Label
+      </a>
+      <div class="pt-2">
+        <code>button-blue</code>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-3 md:col-span-1">
+    <div class="w-48 md:w-56 text-center">
+      <a href="#" class="button button-red" role="button">
+        Button Label
+      </a>
+      <div class="pt-2">
+        <code>button-red</code>
+      </div>
+    </div>
+  </div>
+  <div class="col-span-3 md:col-span-1">
+    <div class="w-48 md:w-56 text-center">
+      <a href="#" class="button button-green" role="button">
+        Button Label
+      </a>
+      <div class="pt-2">
+        <code>button-green</code>
+      </div>
+    </div>
+  </div>
+</div>
+<p> </p>
+<p>Created by <a href="https://ianwalter.dev">Ian Walter</a></p>
+
+  </body>
+</html>
