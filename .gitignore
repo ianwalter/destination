@@ -1,4 +1,4 @@
+_site
 node_modules
 .DS_Store
 destination.min.css
-_site/destination.css
