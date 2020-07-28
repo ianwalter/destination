@@ -19,7 +19,7 @@ used to (97KB gzipped). You can reduce the size if necessary by purging unused
 styles but in most cases it's meant to be loaded via CDN:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/ianwalter@destination@1.0.1/destination.min.css">
+<link rel="stylesheet" href="https://unpkg.com/@ianwalter/destination@1.0.2/destination.min.css">
 ```
 
 Destination will also contain some basic component classes in addition to the
