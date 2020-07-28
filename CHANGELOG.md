@@ -1,5 +1,11 @@
 # @ianwalter/destination
 
+## 1.0.2
+
+### Patch Changes
+
+- 8f4cd73: Removing accidental body max-width
+
 ## 1.0.1
 
 ### Patch Changes
